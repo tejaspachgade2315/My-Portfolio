@@ -9,7 +9,8 @@
   font-family:"Be Vietnam Pro", sans-serif; 
 }
 :root{
-  --bgOrange: #e84949;
+  /* Set to black */
+  --bgOrange: black;
 }
 
 #wrapper{
