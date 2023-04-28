@@ -10,6 +10,7 @@
 }
 :root{
   --bgOrange: #e84949;
+  /* --bgOrange: black; */
 }
 
 #wrapper{
@@ -540,7 +541,7 @@ a{
     width: 35px;
   }
   .project-card:hover .project-number{
-    display: none;
+    display:none;
   }
   .project-card:hover .project-content{
     scale: 0.55;
