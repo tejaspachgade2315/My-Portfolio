@@ -7,47 +7,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My_Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="images/Favicon/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/Favicon/favicon.ico" type="image/x-icon">
 </head>
-
 <body>
+
   <div id="wrapper">
+  <!--Navbar-->
+    
+<nav>
+  <div class="navbar">
+    <div class="logo-container">
+      <img src="images/T favicon//25200658_7074375-removebg-preview.png" alt="logo" class="logo">
+      <div class="logo-text">ejas Pachgade</div>
+    </div>
+    <div class="nav-items">
+      <div> <a href="https://drive.google.com/file/d/1iMhbOL5yDHNVOPLK73Ye16RtlvueamWr/view?usp=share_link" target="_blank">Get CV</a></div>
+      <div> <a href="#projects">Projects</a> </div>
+      <div> <a href="#skills">Skills</a></div>
+      <!-- <div> <a href="#contactme">Contact Me</a></div> -->
+    </div>
 
-    <div class="container">
+  </div>
 
-      <div class="navbar">
-        <div class="logo-container">
-          <img src="images/T favicon//25200658_7074375-removebg-preview.png" alt="logo" class="logo">
-          <div class="logo-text">ejas Pachgade</div>
+</nav>
+      
+  <div class="container">
+     <!--Hero Section-->
+     <div class="hero-section">
+      <div class="hero-section-left">
+        <div class="hero-section-heading">Hi! Tejas Pachgade</div>
+        <div class="hero-section-heading hero-section-sub-heading">
+          I am a <span class="role"></span>
         </div>
-        <div class="nav-items">
-          <div> <a href="https://drive.google.com/file/d/1iMhbOL5yDHNVOPLK73Ye16RtlvueamWr/view?usp=share_link" target="_blank">Get CV</a></div>
-          <div> <a href="#projects">Projects</a> </div>
-          <div> <a href="#skills">Skills</a></div>
-          <div> <a href="#contactme">Contact Me</a></div>
+        <div class="hero-section-description">
+          I'm a Electronics Engineer Passionate about Programming and Development. 
+        </div>
+        <a href="https://www.linkedin.com/in/tejaspachgade/" target="_blank"> <div class="btn-pink" id="btn">Hire Me</div></a>
         </div>
 
-      </div>
-
-      <div class="hero-section">
-
-        <div class="hero-section-left">
-  
-          <div class="faded-text">Tejas Pachgade</div>
-          <div class="hero-section-heading">Hi! Tejas Pachgade</div>
-          <div class="hero-section-heading hero-section-sub-heading">
-            I am a <span class="role"></span>
-          </div>
-          <div class="hero-section-description">
-            I'm a Electronics Engineer Passionate about Programming and Development. 
-          </div>
-  
-          <!-- <div class="btn-pink" id="btn">Hire Me</div> -->
-          <a href="https://www.linkedin.com/in/tejaspachgade/" target="_blank"> <div class="btn-pink" id="btn">Hire Me</div>
-          </a>
-  
-        </div>
-  
         <div class="hero-section-right">
           <div class="absolute icons icon-dots">
             <img src="images/projects/dots.png" alt="">
@@ -68,43 +65,43 @@
             <img src="./images/Drive/IMG_20230103_101238.jpg" style="height: 390px; width: 345px;" alt="">
         </div>
         </div>
-    </div>
+        <div class="faded-text">Tejas Pachgade</div>
+      </div>
 
     </div>
 
+    <!--Projects section-->
     <div class="project-section" id="projects">
-      <h2 class="page-header">Projects</h2>
-
+      <div class="page-header">Projects</div>
       <div class="project-container">
-        <div class="project-card " id="project1">
+        <div class="project-card project1-image" id="project1">
           <div class="project-number project-number-right">01</div>
           <div class="project-content project-content-left">
-
             <div class="project-skills-container">
-              <img class="project-skill" src="./images/stack/HTML.png" alt="" />
-              <img class="project-skill" src="./images/stack/CSS.png" alt="" />
-              <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
-              <!-- <img class="project-skill" src="./images/stack/Express.png" alt="" />
-              <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
-              <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
-              <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
-              <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
-              <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
-              <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
+              <img class="project-skills" src="./images/stack/HTML.png" alt="" />
+              <img class="project-skills" src="./images/stack/CSS.png" alt="" />
+              <!-- <img class="project-skills" src="./images/stack/Javascript.svg" alt="" /> -->
+              <!-- <img class="project-skills" src="./images/stack/Express.png" alt="" /> -->
+              <!-- <img class="project-skills" src="./images/stack/NextJsCircle.png" alt="" /> -->
+              <img class="project-skills" src="./images/stack/Tailwind.png" alt="" />
+              <!-- <img class="project-skills" src="./images/stack/NodeJs.svg" alt="" /> -->
+              <!-- <img class="project-skills" src="./images/stack/MongoDB.svg" alt="" /> -->
+              <!-- <img class="project-skills" src="./images/stack/Redux.svg" alt="" /> -->
+              <!-- <img class="project-skills" src="./images/stack/Vercel.svg" alt="" /> -->
             </div>
-            <h2 class="project-heading">Portfolio Website</h2>
+            <div class="project-heading">Portfolio Website</div>
 
-            <div class="project-subheading">A portfolio website is a unique way to represent your work.
+            <div class="project-subHeading">A portfolio website is a unique way to represent your work.
              <br> Let others know about yourself.
             </div>
           
-          <div class="btn-group"> 
-            <button class="btn-pink btn-project">Read More</button>
+          <div class="btn-grp"> 
+            <div class="btn-pink">Read More</div>
             <a href="" target="_blank">
-                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                <i title="GitHubLink" class="icon fa-brands fa-github"></i>
             </a>
             <a href="https://tejaspachgade.netlify.app/" target="_parent">
-                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                <i title="Live Link" class="icon fa-solid fa-link"></i>
             </a>
 
            </div>
@@ -115,25 +112,25 @@
           <div class="project-number project-number-left">02</div>
           <div class="project-content project-content-right">
               <div class="project-skills-container">
-                  <img class="project-skill" src="./images/stack/HTML.png" alt="" />
-                  <img class="project-skill" src="./images/stack/CSS.png" alt="" />
-                  <!-- <img class="project-skill" src="./images/stack/Javascript.svg" alt="" /> -->
-                  <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" /> -->
-                  <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
-                  <!-- <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
-                  <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
+                  <img class="project-skills" src="./images/stack/HTML.png" alt="" />
+                  <img class="project-skills" src="./images/stack/CSS.png" alt="" />
+                  <!-- <img class="project-skills" src="./images/stack/Javascript.svg" alt="" /> -->
+                  <!-- <img class="project-skills" src="./images/stack/NextJsCircle.png" alt="" /> -->
+                  <img class="project-skills" src="./images/stack/Tailwind.png" alt="" />
+                  <!-- <img class="project-skills" src="./images/stack/Redux.svg" alt="" />
+                  <img class="project-skills" src="./images/stack/Vercel.svg" alt="" /> -->
               </div>
               <h2 class="project-heading">Razorpay Clone </h2>
-              <p class="project-sub-heading">
+              <p class="project-subHeading">
                   An amazing mini frontend project made using HTML, CSS and Tailwind.
               </p>
-              <div class="btn-group">
-                  <button class="btn-pink btn-project">Read More</button>
+              <div class="btn-grp">
+                  <button class="btn-pink">Read More</button>
                   <a href="" target="_blank"> <!--Git hub link for the razorpay project-->
-                      <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      <i title="GitHubLink" class="icon fa-brands fa-github"></i>
                   </a>
                   <a href="">
-                      <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      <i title="Live Link" class="icon fa-solid fa-link"></i>
                   </a>
               </div>
           </div>
@@ -143,26 +140,26 @@
           <div class="project-number project-number-right">03</div>
           <div class="project-content project-content-left">
               <div class="project-skills-container">
-                  <img class="project-skill" src="./images/stack/HTML.png" alt="" />
-                  <img class="project-skill" src="./images/stack/CSS.png" alt="" />
-                  <!-- <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
-                  <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
-                  <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
-                  <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
+                  <img class="project-skills" src="./images/stack/HTML.png" alt="" />
+                  <img class="project-skills" src="./images/stack/CSS.png" alt="" />
+                  <!-- <img class="project-skills" src="./images/stack/Javascript.svg" alt="" /> -->
+                  <!-- <img class="project-skills" src="./images/stack/NextJsCircle.png" alt="" /> -->
+                  <!-- <img class="project-skills" src="./images/stack/Tailwind.png" alt="" /> -->
+                  <!-- <img class="project-skills" src="./images/stack/Vercel.svg" alt="" /> -->
               </div>
 
               <h2 class="project-heading">Modern Chair</h2>
-              <p class="project-sub-heading">
+              <div class="project-subHeading">
                   A simple Modern-Chair App which shows Few Colorful Chairs. <br>
                   It is made using HTML,CSS.
-              </p>
-              <div class="btn-group">
-                  <button class="btn-pink btn-project">Read More</button>
+              </div>
+              <div class="btn-grp">
+                  <button class="btn-pink">Read More</button>
                   <a href="" target="_blank">
-                      <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      <i title="GitHubLink" class="icon fa-brands fa-github"></i>
                   </a>
                   <a href="https://tejaspachgade2.netlify.app/" target="_blank">
-                      <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      <i title="Live Link" class="icon fa-solid fa-link"></i>
                   </a>
               </div>
           </div>
@@ -172,51 +169,43 @@
           <div class="project-number project-number-left">04</div>
           <div class="project-content project-content-right">
               <div class="project-skills-container">
-                  <img class="project-skill" src="./images/stack/HTML.png" alt="" />
-                  <img class="project-skill" src="./images/stack/CSS.png" alt="" />
-                  <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
-                  <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
-                  <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
+                  <img class="project-skills" src="./images/stack/HTML.png" alt="" />
+                  <img class="project-skills" src="./images/stack/CSS.png" alt="" />
+                  <!-- <img class="project-skills" src="./images/stack/NextJsCircle.png" alt="" /> -->
+                  <!-- <img class="project-skills" src="./images/stack/Tailwind.png" alt="" /> -->
+                  <!-- <img class="project-skills" src="./images/stack/Vercel.svg" alt="" /> -->
               </div>
-              <h2 class="project-heading">Image Gallery</h2>
-              <p class="project-sub-heading">
+              <div class="project-heading">Image Gallery</div>
+              <div class="project-subHeading">
                   A simple Image-Gallery website to show Black And White Images.
-              </p>
-              <div class="btn-group">
-                  <button class="btn-pink btn-project">Read More</button>
+              </div>
+              <div class="btn-grp">
+                  <div class="btn-pink">Read More</div>
                   <a href="" target="_blank">
-                      <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      <i title="GitHubLink" class="icon fa-brands fa-github"></i>
                   </a>
                   <a href="https://tejaspachgade3.netlify.app/" target="_blank">
-                      <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      <i title="Live Link" class="icon fa-solid fa-link"></i>
                   </a>
               </div>
           </div>
       </div>
-
-       
   </div>
-
-
-
-
-
-
-    </div>
-
-    <div id="skills" class="container skills-container">
-      <div class="skills-faded-text">Skills</div>
-      <div class="skills-container-left">
-        <h2 class="skills-heading">
+</div>
+ 
+  <!--Skills section-->
+    <div id="skills" class="skills-container">
+      <div class="skill-fade-text">Skills</div>
+      <div class="skill-container-left">
+        <h2 class="skill-heading">
           <span class="caps">M</span>e and
-          <br>
+          <br/>
           MyTech Stack
       </h2>
       <br>
       <div class="skills-subHeading">
           <p>
-              Hi Everyone My name is Tejas Pachgade I am a Second Year
-              B.Tech student and this is my Portfolio website showcasing the stuff that I have already build. I hope you will like it.
+              Greetings, I'm Tejas Pachgade. I'm a third-year B.Tech student, and this website serves as my portfolio, exhibiting the things I've already created. I'm hoping you'll enjoy it.
           </p>
 
           <br><br>
@@ -226,13 +215,12 @@
               Autem consectetur saepe recusandae pariatur, 
               nihil, necessitatibus cum, id earum maiores laudantium 
               vitae amet. Placeat modi et nobis? Officiis tenetur alias omnis. -->
-              I have just started a month ago as a Full Stack Web Developer learner. I am keen interested in Programming and
-              Development and in Open Source.
+              I'm learning to be a full-stack web developer. I have a strong interest in open source as well as programming and developnent.
           </p>
         </div> 
       </div>
 
-      <div class="skills-container-right">
+      <div class="skill-container-right">
         <img src="./images/userAssets/blob vector.png" class="blob-style" alt="" />
         <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
         <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
@@ -311,19 +299,11 @@
     <footer>
       <div class="container">
         <div class="footer-wrapper">
-          <div class="footer-faded-text">
-            Tejas Pachgade
-          </div>
+          <div class="footer-faded-text">Tejas Pachgade</div>
           <div class="link-wrapper">
-            <div>
-              <a href="#projects">Projects</a>
-            </div>
-            <div>
-              <a href="#skills">Skills</a>
-            </div>
-            <div>
-              <a href="#contactme">Contact Me</a>
-            </div>
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contactme">Contact Me</a></div>
           </div>
           
           <div class="icon-wrapper">
